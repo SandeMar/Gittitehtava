@@ -32,4 +32,6 @@ jobs:
           pip install pytest-mock
           pip install coverage
           coverage run -m pytest 
+      - name: Marken coverage raportti
+        run: |
           coverage report -m
